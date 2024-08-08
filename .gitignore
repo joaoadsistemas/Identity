@@ -1,0 +1,52 @@
+
+
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vscode/
+.vscode/*
+.vs/
+.vs/*
+
+# Ignore build output directories
+bin/
+bin/*
+obj/
+obj/*
+
+# Ignore .NET Core project files
+project.lock.json
+project.fragment.lock.json
+
+# Ignore NuGet packages
+*.nupkg
+# Ignore NuGet packages folder
+**/packages/*
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/build/
+#!**/packages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
