@@ -98,6 +98,8 @@ namespace Identity
 
             app.UseHttpsRedirection();
 
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
